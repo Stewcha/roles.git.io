@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Guild Social Deduction Roles</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #0f1115;
+    color: #e6e6e6;
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+
+  .table-container {
+    overflow-x: auto;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 900px;
+    background: #161a22;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  th, td {
+    padding: 14px;
+    border-bottom: 1px solid #2a2f3a;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  th {
+    background: #1f2633;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  tr:hover {
+    background: #1a2130;
+  }
+
+  .good {
+    color: #4ade80;
+    font-weight: bold;
+  }
+
+  .bad {
+    color: #fb7185;
+    font-weight: bold;
+  }
+
+  .items {
+    color: #cbd5e1;
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+
+<h1>Guild Social Deduction Roles</h1>
+
+<div class="table-container">
+<table>
+  <thead>
+    <tr>
+      <th>Good Role</th>
+      <th>Counter Bad Role</th>
+      <th>Shared Items (Ambiguous Use)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="good">Wandering Doctor</td>
+      <td class="bad">Fake Doctor (Poison Healer)</td>
+      <td class="items">Herbal Kit / Sterile Needle / Bitter Root Extract</td>
+    </tr>
+    <tr>
+      <td class="good">Hunter</td>
+      <td class="bad">Trap Saboteur</td>
+      <td class="items">Trap Wire / Animal Meat / Tracking Powder</td>
+    </tr>
+    <tr>
+      <td class="good">Monk</td>
+      <td class="bad">False Monk (Cultist)</td>
+      <td class="items">Prayer Beads / Calm Incense / Meditation Bell</td>
+    </tr>
+    <tr>
+      <td class="good">Bodyguard</td>
+      <td class="bad">Assassin Guard</td>
+      <td class="items">Iron Bracer / Guard Whistle / Smoke Bomb</td>
+    </tr>
+    <tr>
+      <td class="good">Lost Traveler</td>
+      <td class="bad">Bandit Traveler</td>
+      <td class="items">Weathered Map / Broken Compass / Travel Rations</td>
+    </tr>
+    <tr>
+      <td class="good">Messenger</td>
+      <td class="bad">Spy Courier</td>
+      <td class="items">Sealed Letter / Ink Stamp / Signal Flare</td>
+    </tr>
+    <tr>
+      <td class="good">Rich Noble</td>
+      <td class="bad">Corrupt Noble</td>
+      <td class="items">Gold Seal Ring / Luxury Perfume / Contract Scroll</td>
+    </tr>
+    <tr>
+      <td class="good">Wandering Merchant</td>
+      <td class="bad">Smuggler Dealer</td>
+      <td class="items">Trade Ledger / Coin Bag / Barter Tokens</td>
+    </tr>
+    <tr>
+      <td class="good">Carpenter</td>
+      <td class="bad">Saboteur Carpenter</td>
+      <td class="items">Wooden Planks / Nail Pouch / Repair Hammer</td>
+    </tr>
+    <tr>
+      <td class="good">Cook</td>
+      <td class="bad">Poison Cook</td>
+      <td class="items">Spices / Cooking Oil / Preserved Meat</td>
+    </tr>
+    <tr>
+      <td class="good">Scholar</td>
+      <td class="bad">False Scholar (Propagandist)</td>
+      <td class="items">Research Notes / Ink Brush / Scroll Fragment</td>
+    </tr>
+    <tr>
+      <td class="good">Blacksmith</td>
+      <td class="bad">Rogue Blacksmith</td>
+      <td class="items">Forging Hammer / Metal Ingots / Grinding Stone</td>
+    </tr>
+    <tr>
+      <td class="good">Performer</td>
+      <td class="bad">Fake Performer (Hypnotist)</td>
+      <td class="items">Musical Flute / Color Powder / Stage Mask</td>
+    </tr>
+    <tr>
+      <td class="good">Warrior</td>
+      <td class="bad">Mercenary Killer</td>
+      <td class="items">Steel Blade / Armor Strap / Battle Charm</td>
+    </tr>
+    <tr>
+      <td class="good">Herbalist</td>
+      <td class="bad">Corrupted Herbalist</td>
+      <td class="items">Healing Herbs / Poison Plant / Mixing Bowl</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+</body>
+</html>
